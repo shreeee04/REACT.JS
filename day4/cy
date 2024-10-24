@@ -1,0 +1,39 @@
+import React from "react";
+import { Divider, List,ListItem,ListItemText } from "@mui/material";
+const books=[
+  {
+    title:"The Holy Bible",
+    summary:"Religious text of Christianity,considered sacred and canonical"
+  },
+  {
+    title:"Quatations from Chairman Mao",
+    summary:"Colection of statements from speches and writings by Mao Zedong."
+  },
+  {
+    title:"Harry Potter series",
+    summary:"Fantasy novels by J.K Rowling following the life of a young wizard"
+  },
+  {
+    title:"The Lord of the Rings",
+    summary:"High-fantasy novel written by J.R.R. Tolkien,set in Middle-earth"
+  },
+  {
+    title:"To Kill a Mockingbird",
+    summary:"Novel by Harper Lee,dealing with racial injustice and moral growth"
+  }
+]
+const BookList=()=>
+{
+    return(
+ <List>
+    {books.map((val,ind)=>
+    <ListItem key={ind} divider={ind<books.length-1}>
+        <ListItemText primary={val.title}
+        secondary={val.summary}>
+           
+            </ListItemText>
+    </ListItem>)}
+ </List>
+    )
+}
+export default BookList;
