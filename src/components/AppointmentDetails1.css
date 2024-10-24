@@ -1,0 +1,62 @@
+.appointment-details {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+h1, h2 {
+    text-align: center;
+    color: #0a4b26;
+}
+
+.appointment-list {
+    margin-bottom: 30px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background-color: #f4f4f4;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    border-left: 5px solid #185a34;
+}
+
+.new-appointment {
+    margin-top: 40px;
+}
+
+.new-appointment form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.new-appointment .form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.new-appointment input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px;
+    background-color: #0a4b26;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #075a49;
+}

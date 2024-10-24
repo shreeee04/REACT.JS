@@ -1,0 +1,207 @@
+.signup-container {
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.signup-header {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.signup-inputs {
+    margin-bottom: 20px;
+}
+
+.signup-inputs input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.signup-button {
+    align-items: center;
+    border:none;
+    width:200px;
+    height: 59px;
+    color: rgb(29, 79, 57);    
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight:700;
+    cursor:pointer;
+}
+
+.signup-button:hover {
+    background-color: #184840;
+}
+
+.signup-footer {
+    text-align: center;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 200px;
+    width: 600px;
+    background-color: rgba(118, 175, 149, 0.212);
+    padding-bottom: 20px;
+}
+
+.welcome {
+    font-size: 30px;
+    color: #2b5c50;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 9px;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.text {
+    color: #2b5c50;
+    font-size: 49px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 800;
+}
+
+.inputs {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.upperbound{
+    font-size:20px;
+    padding:1px 60px;
+    color: #125d3f;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.input {
+    display: flex;
+    margin: auto;
+    width: 480px;
+    height: 60px;
+    background: #1e6e4696;
+    border-radius: 1px;
+}
+.Alreadycreate{
+    padding: 5px 190px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.AC{
+    color:#a9aacd;
+    cursor:pointer;
+}
+.input input {
+    height: 57px;
+    width: 475px;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 19px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #a9aacd;
+}
+
+.options {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 50px;
+    margin-top: 10px;
+    font-size: 17px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.remember {
+    display: flex;
+    align-items: center;
+    color: #2b5c50;
+}
+.create-account-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #21473e;
+    margin-top: 30px;
+}
+.forgot-password {
+    display: flex;
+    align-items: center;
+    color: #21473e;
+}
+
+.p1 {
+    color: #3e957f;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+.submit-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px auto;
+    padding:0.5px 180px;
+}
+
+.submit1 {
+    align-items: center;
+    border: none;
+    width: 200px;
+    height: 59px;
+    color: rgb(29, 79, 57);
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 700;
+    cursor: pointer;
+}
+.submit{
+    align-items: center;
+    border:none;
+    width:200px;
+    height: 59px;
+    color: rgb(29, 79, 57);    
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight:700;
+    cursor:pointer;
+
+}
+.create-account {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 17px;
+    color: #2b5c50;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.signup-link {
+    color: #00231a;
+    cursor: pointer;
+}
+.forget{
+    padding-left: 50px;
+    margin-top: 10px;
+    font-size: 17px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #2b5c50;
+
+}
+
+.line{
+    padding: 10px 90px;
+    color: #00231a;
+    
+}

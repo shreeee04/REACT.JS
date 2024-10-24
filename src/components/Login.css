@@ -1,0 +1,113 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 200px;
+    width: 600px;
+    background-color: rgba(118, 175, 149, 0.212);
+    padding-bottom: 20px;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 9px;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.text {
+    color: #2b5c50;
+    font-size: 49px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 800;
+}
+
+.welcome {
+    font-size: 30px;
+    color: #2b5c50;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.inputs {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.input {
+    display: flex;
+    margin: auto;
+    width: 480px;
+    height: 60px;
+    background: #1e6e4696;
+    border-radius: 1px;
+}
+
+.input input {
+    height: 57px;
+    width: 475px;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 19px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #a9aacd;
+}
+
+.options {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 50px;
+    margin-top: 10px;
+    font-size: 17px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.remember {
+    display: flex;
+    align-items: center;
+    color: #2b5c50;
+}
+
+.forgot-password {
+    display: flex;
+    align-items: center;
+    color: #21473e;
+}
+
+.p1 {
+    color: #3e957f;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+.submit-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px auto;
+    padding: 0.5px 180px;
+}
+
+.submit1 {
+    align-items: center;
+    border: none;
+    width: 200px;
+    height: 59px;
+    color: rgb(24, 108, 72);
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.login-footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 17px;
+    color: #2b5c50;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

@@ -1,0 +1,35 @@
+.medical-center-details {
+    padding: 20px;
+    background-color: #f2f9f2;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.medical-center-details h2 {
+    font-family: 'Arial', sans-serif;
+    color: #0a5742;
+    margin-bottom: 15px;
+}
+
+.center-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.center-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    width: 250px;
+    text-align: center;
+}
+
+.center-card h3 {
+    color: #0c5b3b;
+}
+
+.center-card p {
+    color: #555;
+}

@@ -1,0 +1,14 @@
+[
+  {
+    "id": 1,
+    "patientName": "Alice Johnson",
+    "date": "2024-11-01",
+    "doctor": "Dr. John Smith"
+  },
+  {
+    "id": 2,
+    "patientName": "Bob Green",
+    "date": "2024-11-05",
+    "doctor": "Dr. Jane Doe"
+  }
+]

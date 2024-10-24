@@ -1,0 +1,17 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  height: 30vh;
+  background-size: cover;
+  background-image: url(https://img.freepik.com/free-photo/copy-space-medical-desk_23-2148519779.jpg?t=st=1725190261~exp=1725193861~hmac=6214d9111e8fff24a1279aab4e4ef7ada85a961edd80ee568415bb0c7ff43a5a&w=996);
+  background-repeat: no-repeat;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
